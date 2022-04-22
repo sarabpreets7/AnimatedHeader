@@ -1,0 +1,25 @@
+.MainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.Container{
+    min-height: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.active {
+    color: red;
+    visibility: initial ;
+
+}
+.container {
+    visibility: hidden;
+}
+.box0,.box1,.box2,.box3 {
+    visibility: visible !important;
+}
